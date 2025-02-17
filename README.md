@@ -29,15 +29,15 @@ The final file path should be the same as the following:
 ## Train
 
 1. Hyperparameter(./configs/haze.yml)
-2. Execute the training command
-```bash```
+2. Execute the training command:
+
 python train.py --config "haze.yml"
 
 ## Test
 
 1. Hyperparameter(./configs/haze.yml)
-2. Execute the testing command
-```bash```
+2. Execute the testing command:
+
 python eval_diffusion.py --config "haze.yml" --test_set 'rsid'
 
 
@@ -49,4 +49,4 @@ Download from Baidu Cloud:
 ## Contact Us
 
 If you have any questions, please contact us:  
-[zhikichan@mail.wpu.edu.cn](mailto:zhikichan@mail.wpu.edu.cn)
+([junjieli@mail.nwpu.edu.cn])
