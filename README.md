@@ -41,7 +41,7 @@ data
 
 1. Hyperparameter(./configs/haze.yml)
 
-2. Execute the testing command: ```python eval_diffusion.py --config 'haze.yml' --test_set 'rsid'```
+2. Execute the testing command: ```python test.py --config 'haze.yml' --test_set 'rsid'```
 
    
 
