@@ -10,7 +10,8 @@ Code implementation of the DFG-DDM: Deep Frequency-Guided Denoising Diffusion Mo
 Put the training and testing data to corresponding folders
 The final file path should be the same as the following:
 
-   data
+```
+data
     ├─ ... (dataset name)
     │   ├─ train
     │   │   ├─ GT
@@ -24,21 +25,25 @@ The final file path should be the same as the following:
     │   │   └─ hazy
     │   │   │   └─ ... (corresponds to the former)
     │   │   └─test.txt
+```
+
+   
 
 
 ## Train
 
 1. Hyperparameter(./configs/haze.yml)
-2. Execute the training command:
+2. Execute the training command: ```python train.py --config 'haze.yml'```
 
-python train.py --config "haze.yml"
+
 
 ## Test
 
 1. Hyperparameter(./configs/haze.yml)
-2. Execute the testing command:
 
-python eval_diffusion.py --config "haze.yml" --test_set 'rsid'
+2. Execute the testing command: ```python eval_diffusion.py --config 'haze.yml' --test_set 'rsid'```
+
+   
 
 
 ## Random Haze Distribution Dataset for Remote Sensing dehazing (RHDRS)
